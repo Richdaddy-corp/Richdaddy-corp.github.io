@@ -1,0 +1,47 @@
+#  The contact options.
+
+
+
+#- type: twitter
+#  icon: "fa-brands fa-x-twitter"
+
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true # open link in current tab
+
+- #type: instagram1
+  #icon: 'fa-brands fa-square-instagram'   # icons powered by <https://fontawesome.com/>
+  #url:  'https://www.instagram.com/osy540/'
+
+- #type: instagram2
+  #icon: 'fa-solid fa-palette'   # icons powered by <https://fontawesome.com/>
+  #url:  'https://www.instagram.com/grim_540/'
+
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
+# Uncomment and complete the url below to enable more contact options
+
+#- type: mastodon
+#  icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
+#  url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
+
+- #type: linkedin
+  #icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  #url:  'https://www.linkedin.com/in/%EC%84%9C%EC%98%81-%EC%98%A4-309a24200/'
+
+- type: github
+  icon: "fab fa-github"
+  url:  'https://github.com/Richdaddy-corp'
+
+- #type: notion
+  #icon: "fa-solid fa-rocket"
+  #url:  'https://special-grip-6f7.notion.site/Seoyoung-Oh-2a6b295b15b4435bb7b945bb07a572ae'
+
+- #type: cv
+  #icon: "fa-solid fa-user-graduate"
+  #url:  'https://drive.google.com/file/d/1hwoWQEXxsmvShhA7aYSA8tqzRcoThUj3/view?usp=sharing'
+
+#- type: stack-overflow
+#  icon: 'fab fa-stack-overflow'
+#  url:  ''                  # Fill with your stackoverflow homepage
