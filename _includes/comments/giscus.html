@@ -27,10 +27,9 @@
         async>
     };
 
-    let giscusNode = document.createElement('script');
-    Object.entries(giscusAttributes).forEach(([key, value]) =>
-      giscusNode.setAttribute(key, value)
-    );
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("tail-wrapper").appendChild(giscusScript);
 
     const $footer = document.querySelector('footer');
     $footer.insertAdjacentElement("beforebegin", giscusNode);
