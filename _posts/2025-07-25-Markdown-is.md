@@ -14,7 +14,7 @@ math : true
 mermaid : true
 last_modified_at: 2025-07-29 23:00:00 +/-TTTT
 #shortTitle: 아아아아아
-comments: true
+
 ---
 
 --------------
