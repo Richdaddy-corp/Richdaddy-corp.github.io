@@ -1,2 +1,5 @@
 User-agent: *
 Allow: /
+
+
+Sitemap: http://richdaddy-corp.github.io/sitemap.xml
