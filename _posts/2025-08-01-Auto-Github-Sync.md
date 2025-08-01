@@ -35,28 +35,28 @@ description: Python, GitPython, watchdog, schedule을 활용하여 로컬 폴더
 - Git : [`깃허브`](https://git-scm.com/)
 - Python: [`파이썬`](https://python.org/)
 
-## 3.2 Python 가상환경(venv) 설정
-### 프로젝트 폴더 생성
+### 3.2 Python 가상환경(venv) 설정
+#### 프로젝트 폴더 생성
 ``` Bash
 mkdir folder_sync && cd folder_sync
 ```
-### venv 생성
+#### venv 생성
 ``` Bash
 python3 -m venv venv
 ```
 
-### venv 활성화 (Windows)
+#### venv 활성화 (Windows)
 ``` Bash
 venv\Scripts\activate
 ``` 
 
-### venv 활성화 (macOS/Linux)
+#### venv 활성화 (macOS/Linux)
 ```Bash
 source venv/bin/activate
 ```
 
 
-## 3.3 필요한 Python 모듈 설치
+### 3.3 필요한 Python 모듈 설치
 ```  Bash
 pip install PyYAML schedule gitpython watchdog pillow
 ```
@@ -67,7 +67,7 @@ pip install PyYAML schedule gitpython watchdog pillow
 - pillow: 이미지 처리 (타이틀/설명 이미지)
 
 
-4. 프로그램 구조 및 주요 기능
+## 4. 프로그램 구조 및 주요 기능
 ```
 folder_sync/
 ├── venv/                   
@@ -85,8 +85,8 @@ folder_sync/
 - git_sync.py: Git clone, fetch, pull, commit, push 구현
 - watcher.py: watchdog 기반 로컬 변경 감지
 
-# 5. 핵심 코드 설명
-## 5.1 config.yaml 예시
+## 5. 핵심 코드 설명
+### 5.1 config.yaml 예시
 ``` yaml
 local_path: "/Users/jino/project/local_folder"
 remote:
@@ -96,7 +96,7 @@ remote:
 interval_minutes: 5
 ```
 
-## 5.2 GitSync 클래스 (git_sync.py)
+### 5.2 GitSync 클래스 (git_sync.py)
 ``` python
 import os
 from git import Repo
@@ -123,7 +123,7 @@ class GitSync:
 설치된 리포지토리가 없으면 클론, 있으면 pull 실행 후 변경사항 발생 시 commit & push 수행합니다.
 
 
-## 5.3 Watcher (watcher.py)
+### 5.3 Watcher (watcher.py)
 ``` python
 import time
 from watchdog.observers import Observer
@@ -151,7 +151,7 @@ def start_watch(path, sync_callback):
 
 로컬 폴더 변화를 감지하면 즉시 동기화 콜백을 호출합니다.
 
-## 5.4 스케줄러 및 실행 (sync.py)
+### 5.4 스케줄러 및 실행 (sync.py)
 ``` python
 import yaml
 import schedule
@@ -185,8 +185,8 @@ if __name__ == "__main__":
 
 
 
-# 6. 실행 및 백그라운드 서비스 등록
-## 6.1 Windows 서비스 등록 (NSSM 사용)
+## 6. 실행 및 백그라운드 서비스 등록
+### 6.1 Windows 서비스 등록 (NSSM 사용)
 ``` Bash
 - NSSM 다운로드 및 설치: https://nssm.cc/
 - 서비스 생성
@@ -195,7 +195,7 @@ nssm install FolderSyncService C:\path\to\venv\Scripts\python.exe C:\path\to\fol
 nssm start FolderSyncService
 ```
 
-## 6.2 macOS Launch Agent
+### 6.2 macOS Launch Agent
 ``` bash
 - ~/Library/LaunchAgents/com.user.foldersync.plist 생성
 <?xml version="1.0" encoding="UTF-8"?>
@@ -217,12 +217,12 @@ launchctl load ~/Library/LaunchAgents/com.user.foldersync.plist
 ```
 
 
-# 7. 사용 방법
+## 7. 사용 방법
 - config.yaml에 설정 입력
 - 가상환경 활성화 및 sync.py 실행
 - 백그라운드 서비스 상태 확인
 
-# 8. 주의사항
+## 8. 주의사항
 - repository URL 및 권한 설정 확인
 - 원격 폴더 권한 오류 시 SSH 키 사용 권장
 - 대용량 파일 동기화 시 성능 저하 우려
