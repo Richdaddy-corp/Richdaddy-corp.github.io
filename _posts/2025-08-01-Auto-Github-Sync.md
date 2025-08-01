@@ -16,23 +16,6 @@ description: Python, GitPython, watchdog, schedule을 활용하여 로컬 폴더
 
 # 로컬 ↔ GitHub 폴더 자동 동기화 Python 프로그램
 
-목차
-- 개요
-- 요구사항
-- 설치 및 설정
-- 필수 프로그램
-- Python 가상환경(venv) 설정
-- 필요한 Python 모듈 설치
-- 프로그램 구조 및 주요 기능
-- 핵심 코드 설명
-- 전체 소스코드
-- 실행 및 백그라운드 서비스 등록
-- Windows
-- macOS
-- 사용 방법
-- 주의사항
-- SEO 최적화 포인트
-
 --------------
 > **<u>KEYWORDS</u>**    
 > Python GitHub 동기화, folder sync Python, 자동화, GitPython tutorial, watchdog 사용법
@@ -54,27 +37,27 @@ description: Python, GitPython, watchdog, schedule을 활용하여 로컬 폴더
 
 ## 3.2 Python 가상환경(venv) 설정
 ### 프로젝트 폴더 생성
-```
+``` Bash
 mkdir folder_sync && cd folder_sync
 ```
 ### venv 생성
-```
+``` Bash
 python3 -m venv venv
 ```
 
 ### venv 활성화 (Windows)
-```
+``` Bash
 venv\Scripts\activate
-```
+``` 
 
 ### venv 활성화 (macOS/Linux)
-```
+```Bash
 source venv/bin/activate
 ```
 
 
 ## 3.3 필요한 Python 모듈 설치
-``` cmd 
+```  Bash
 pip install PyYAML schedule gitpython watchdog pillow
 ```
 - PyYAML: 설정파일(config.yaml) 파싱
@@ -204,7 +187,7 @@ if __name__ == "__main__":
 
 # 6. 실행 및 백그라운드 서비스 등록
 ## 6.1 Windows 서비스 등록 (NSSM 사용)
-``` cmd
+``` Bash
 - NSSM 다운로드 및 설치: https://nssm.cc/
 - 서비스 생성
 nssm install FolderSyncService C:\path\to\venv\Scripts\python.exe C:\path\to\folder_sync\sync.py
