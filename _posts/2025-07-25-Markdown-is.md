@@ -9,8 +9,8 @@ tag : [마크다운,markdown,문서]
 categories : [Study]
 author : Richdaddy
 date : 2025-07-28 00:00:00 +/-TTTT
-pin : true
-math : true
+pin : false
+math : false
 mermaid : true
 last_modified_at: 2025-07-29 23:00:00 +/-TTTT
 #shortTitle: 아아아아아
