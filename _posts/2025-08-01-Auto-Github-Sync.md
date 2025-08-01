@@ -8,7 +8,7 @@ toc: true
 author: 
 img_path: /assets/img/for_post/
 image: 
-  path: 2025-08-01-Auto-Github-Sync-Titleimg.png #썸네일
+  path: 2025-08-01-Auto-Github-Sync-Title.png #썸네일
   alt: "GitHub 자동 동기화 Python"
 pin: false
 description: Python, GitPython, watchdog, schedule을 활용하여 로컬 폴더와 GitHub 저장소를 동기화하는 방법을 단계별로 설명합니다.
