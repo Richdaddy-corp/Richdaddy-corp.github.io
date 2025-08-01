@@ -37,27 +37,27 @@ description: Python, GitPython, watchdog, schedule을 활용하여 로컬 폴더
 
 ### 3.2 Python 가상환경(venv) 설정
 #### 프로젝트 폴더 생성
-``` Bash
+``` 
 mkdir folder_sync && cd folder_sync
 ```
 #### venv 생성
-``` Bash
+``` 
 python3 -m venv venv
 ```
 
 #### venv 활성화 (Windows)
-``` Bash
+``` 
 venv\Scripts\activate
 ``` 
 
 #### venv 활성화 (macOS/Linux)
-```Bash
+```
 source venv/bin/activate
 ```
 
 
 ### 3.3 필요한 Python 모듈 설치
-```  Bash
+```  
 pip install PyYAML schedule gitpython watchdog pillow
 ```
 - PyYAML: 설정파일(config.yaml) 파싱
@@ -182,12 +182,10 @@ if __name__ == "__main__":
         schedule.run_pending()
         time.sleep(1)
 ```
-
-
 
 ## 6. 실행 및 백그라운드 서비스 등록
 ### 6.1 Windows 서비스 등록 (NSSM 사용)
-``` Bash
+``` 
 - NSSM 다운로드 및 설치: https://nssm.cc/
 - 서비스 생성
 nssm install FolderSyncService C:\path\to\venv\Scripts\python.exe C:\path\to\folder_sync\sync.py
