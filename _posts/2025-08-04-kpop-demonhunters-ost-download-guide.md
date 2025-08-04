@@ -25,7 +25,7 @@ robots: index, follow
 language: ko-KR
 image:
   path: https://i.namu.wiki/i/anpMt-EMxs-fVOgJ7K76I-jDG6cDGCz6B2_AT1OVDZoOoda9PtG1wIa11DU1tIDjjbWallrGGNPW_ff-NB4cLazUwqFIhjp-mwuXJLhK2qXmK7WRsA0fSYeLkUr_MSjG_6Ng_xprKQGROF39gHoYig.webp
-  alt: 출처:KPop Demon Hunters WIKI (https://en.wikipedia.org/wiki/KPop_Demon_Hunters)
+  alt: 출처:KPop Demon Hunters 나무위키 (https://namu.wiki/w/%EC%BC%80%EC%9D%B4%ED%8C%9D%20%EB%8D%B0%EB%AA%AC%20%ED%97%8C%ED%84%B0%EC%8A%A4)
 ---
 
 # K-pop 데몬헌터스 OST 다운로드 & 이해하기 쉬운 파이썬 자동화 가이드
