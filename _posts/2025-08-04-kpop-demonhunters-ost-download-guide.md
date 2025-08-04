@@ -58,7 +58,7 @@ mermaid : true
  구분 | 이유 | 설치 명령 | 비고
  -------|------------|-----------------------|----------
  `Python 3.9+` | 스크립트 실행 환경 |   | Windows 11·macOS 모두 OK 
- `yt-dlp` | 유튜브 다운로드 핵심 라이브러리(유튜브-DL 후속) | pip install yt-dlp | 유지보수 활발 
+ `yt-dlp` | 유튜브 다운로드 핵심 라이브러리<br>(유튜브-DL 후속) | pip install yt-dlp | 유지보수 활발 
  `FFmpeg` | 오디오 추출·변환 | Windows: choco install ffmpeg<br>macOS: brew install ffmpeg | PATH 등록 필요 
 
 
