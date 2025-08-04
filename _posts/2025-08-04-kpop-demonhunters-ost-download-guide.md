@@ -24,8 +24,8 @@ canonical: https://richdaddy-corp.github.io/kpop-demonhunters-ost-download-guide
 robots: index, follow
 language: ko-KR
 image:
-  path: https://i.namu.wiki/i/anpMt-EMxs-fVOgJ7K76I-jDG6cDGCz6B2_AT1OVDZoOoda9PtG1wIa11DU1tIDjjbWallrGGNPW_ff-NB4cLazUwqFIhjp-mwuXJLhK2qXmK7WRsA0fSYeLkUr_MSjG_6Ng_xprKQGROF39gHoYig.webp
-  alt: 출처:KPop Demon Hunters 나무위키 (https://namu.wiki/w/%EC%BC%80%EC%9D%B4%ED%8C%9D%20%EB%8D%B0%EB%AA%AC%20%ED%97%8C%ED%84%B0%EC%8A%A4)
+  path: https://img.hankyung.com/photo/202508/01.40930753.1.jpg
+  alt: '케이팝 데몬 헌터스' 스틸컷 /사진=넷플릭스
 pin : false
 math : false
 mermaid : true
