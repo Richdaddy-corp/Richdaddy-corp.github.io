@@ -27,15 +27,15 @@ images: https://upload.wikimedia.org/wikipedia/en/9/93/KPDHposter.jpeg
 ---
 
 # K-pop 데몬헌터스 OST 다운로드 & 이해하기 쉬운 파이썬 자동화 가이드
-
-### 📌 주요 키워드
-
+----------------------
+> **<u> 📌 KEYWORDS</u>**   
 - K-pop 데몬헌터스 OST 다운로드
 - 유튜브에서 게임 음악 저장하기
 - 파이썬으로 음원 추출하는 법
 - yt-dlp와 FFmpeg을 활용한 오디오 변환
 - 저작권 걱정 없는 개인 음악 저장
-
+{: .prompt-info }
+----------------------
 
 ## 1. 이야기를 먼저 들어볼래요?
 당신이 흠뻑 빠져 있는 게임 “[**``K-pop 데몬헌터스``**](https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zC5IMUgySDc2YPQSyi7IL1BISc3Nz1PIKM0rSS0qBgC9DQt9&q=kpop+demon+hunters&oq=%E3%85%8F%E3%85%94%E3%85%90%E3%85%94&gs_lcrp=EgZjaHJvbWUqDQgBEC4YgwEYsQMYgAQyBggAEEUYOTINCAEQLhiDARixAxiABDINCAIQABiDARixAxiABDIGCAMQABgDMgcIBBAAGIAEMgoIBRAAGLEDGIAEMgcIBhAAGIAEMgYIBxAAGAMyBwgIEAAYgATSAQgyODQ1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8)”는 사방에서 쿵쿵대는 EDM 베이스와 케이팝 풍 멜로디가 어우러진 OST로 유명하죠.
