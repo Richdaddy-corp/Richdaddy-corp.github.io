@@ -23,7 +23,9 @@ keywords:
 canonical: https://richdaddy-corp.github.io/kpop-demonhunters-ost-download-guide
 robots: index, follow
 language: ko-KR
-images: https://upload.wikimedia.org/wikipedia/en/9/93/KPDHposter.jpeg
+image:
+  path: https://upload.wikimedia.org/wikipedia/en/9/93/KPDHposter.jpeg
+  alt: 출처:KPop Demon Hunters WIKI (https://en.wikipedia.org/wiki/KPop_Demon_Hunters)
 ---
 
 # K-pop 데몬헌터스 OST 다운로드 & 이해하기 쉬운 파이썬 자동화 가이드
