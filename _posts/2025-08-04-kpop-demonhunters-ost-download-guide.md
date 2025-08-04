@@ -1,7 +1,7 @@
 ---
 title: K-pop 데몬헌터스 OST 유튜브 다운로드 방법 및 파이썬 자동화 가이드
 description: 유튜브에서 K-pop 데몬헌터스 OST를 개인 감상용으로 다운로드하는 이야기와 파이썬 스크립트 가이드. 저작권 준수와 FFmpeg·yt-dlp 활용법까지 자세히 설명합니다.
-author: Jin-oh (진오)
+author: Richdaddy
 date: 2025-08-04
 tags:
   - K-pop OST 다운로드
@@ -20,7 +20,7 @@ keywords:
   - 개인 감상용 유튜브 다운로드
   - 게임 OST 저장하기
   - Python으로 유튜브 다운로드
-canonical: https://yourdomain.com/kpop-demonhunters-ost-download-guide
+canonical: https://richdaddy-corp.github.io/kpop-demonhunters-ost-download-guide
 robots: index, follow
 language: ko-KR
 ---
