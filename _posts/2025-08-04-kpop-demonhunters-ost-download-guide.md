@@ -164,12 +164,14 @@ if __name__ == "__main__":
 - BITRATE=192는 휴대용 기기 감상에 무난합니다. 하이파이를 원한다면 320 kbps나 flac 선택.
 
 ## 7. 자주 묻는 Q&A
-| 질문❓  | 답변    |
-|-----|------|
-| `“영상이 통째로 mp3로 변환돼요❓”`  | 네, 영상·자막은 버리고 오디오 트랙만 추출합니다.   |
-| `“플레이리스트 주소 넣어도 돼요❓”` | noplaylist=True이므로 한 곡만 저장합니다. 여러 곡이면 옵션 False. |
-| `“에러: unsupported URL 무엇인가요❓”` | 유튜브 shorts 등 특수 유형은 개별 영상 URL로 변환해 주세요. |
-| `“클레임 뜨나요❓”`  | 다운로드 자체는 비공개 단말 내부라 감지되지 않습니다. 다만 배포·업로드 순간 저작권 클레임 발생. |
+### `“영상이 통째로 mp3로 변환돼요❓”`
+- 네, 영상·자막은 버리고 오디오 트랙만 추출합니다.
+### `“플레이리스트 주소 넣어도 돼요❓”`
+- noplaylist=True이므로 한 곡만 저장합니다. 여러 곡이면 옵션 False.
+### `“에러: unsupported URL 무엇인가요❓”`
+- 유튜브 shorts 등 특수 유형은 개별 영상 URL로 변환해 주세요. 
+### `“클레임 뜨나요❓”`
+- 다운로드 자체는 비공개 단말 내부라 감지되지 않습니다. 다만 배포·업로드 순간 저작권 클레임 발생. 
 
 ![HEROPY](https://upload.wikimedia.org/wikipedia/commons/0/05/Minhwa-Tiger_and_magpie-02.jpg "출처:KPop Demon Hunters WIKI (https://en.wikipedia.org/wiki/KPop_Demon_Hunters)")
 
