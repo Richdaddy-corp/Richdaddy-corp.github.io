@@ -24,7 +24,7 @@ canonical: https://richdaddy-corp.github.io/kpop-demonhunters-ost-download-guide
 robots: index, follow
 language: ko-KR
 image:
-  path: https://upload.wikimedia.org/wikipedia/en/9/93/KPDHposter.jpeg
+  path: https://i.namu.wiki/i/anpMt-EMxs-fVOgJ7K76I-jDG6cDGCz6B2_AT1OVDZoOoda9PtG1wIa11DU1tIDjjbWallrGGNPW_ff-NB4cLazUwqFIhjp-mwuXJLhK2qXmK7WRsA0fSYeLkUr_MSjG_6Ng_xprKQGROF39gHoYig.webp
   alt: 출처:KPop Demon Hunters WIKI (https://en.wikipedia.org/wiki/KPop_Demon_Hunters)
 ---
 
@@ -40,7 +40,7 @@ image:
 ----------------------
 
 ## 1. 이야기를 먼저 들어볼래요?
-당신이 흠뻑 빠져 있는 게임 “[**``K-pop 데몬헌터스``**](https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zC5IMUgySDc2YPQSyi7IL1BISc3Nz1PIKM0rSS0qBgC9DQt9&q=kpop+demon+hunters&oq=%E3%85%8F%E3%85%94%E3%85%90%E3%85%94&gs_lcrp=EgZjaHJvbWUqDQgBEC4YgwEYsQMYgAQyBggAEEUYOTINCAEQLhiDARixAxiABDINCAIQABiDARixAxiABDIGCAMQABgDMgcIBBAAGIAEMgoIBRAAGLEDGIAEMgcIBhAAGIAEMgYIBxAAGAMyBwgIEAAYgATSAQgyODQ1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8)”는 사방에서 쿵쿵대는 EDM 베이스와 케이팝 풍 멜로디가 어우러진 OST로 유명하죠.
+당신이 흠뻑 빠져 있는 애니메이션 “[**``K-pop 데몬헌터스``**](https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zC5IMUgySDc2YPQSyi7IL1BISc3Nz1PIKM0rSS0qBgC9DQt9&q=kpop+demon+hunters&oq=%E3%85%8F%E3%85%94%E3%85%90%E3%85%94&gs_lcrp=EgZjaHJvbWUqDQgBEC4YgwEYsQMYgAQyBggAEEUYOTINCAEQLhiDARixAxiABDINCAIQABiDARixAxiABDIGCAMQABgDMgcIBBAAGIAEMgoIBRAAGLEDGIAEMgcIBhAAGIAEMgYIBxAAGAMyBwgIEAAYgATSAQgyODQ1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8)”는 사방에서 쿵쿵대는 EDM 베이스와 케이팝 풍 멜로디가 어우러진 OST로 유명하죠.
 퇴근길 지하철에서, 혹은 산책길 이어폰 속에서 그 음악이 재생되면 플레이하던 전투 장면이 한눈에 떠올라 피로가 스르르 풀려요. 문제는 모바일 데이터. 유튜브 스트리밍만 믿고 있다가 지하 구간에 들어서면 “로딩…”. 음악은 끊기고 감동은 반 토막.
 “아예 오프라인으로 저장해 두면 어떨까?”
 이 질문이 오늘 가이드를 시작하게 된 출발점입니다.
@@ -150,6 +150,9 @@ if __name__ == "__main__":
 - 디렉터리가 없다면 ensure_dir()가 자동 생성.
 - 예외 발생 시 sys.exit(1)로 깔끔히 종료, CI 나 배치 작업에도 유용.
 
+
+[![Video Label](http://img.youtube.com/vi/xQnsFqn44uo/0.jpg)](https://youtu.be/xQnsFqn44uo)
+
 ## 6. 실행 전·후 체크리스트
 - Windows: FFmpeg 실행 파일(ffmpeg.exe)이 시스템 PATH에 잡혀 있는지 ffmpeg -version으로 확인.
 - macOS/Linux: brew/apt 설치 후 터미널에서 동일하게 버전 확인.
@@ -165,6 +168,7 @@ if __name__ == "__main__":
 | “클레임 뜨나요?” | 다운로드 자체는 비공개 단말 내부라 감지되지 않습니다. 다만 배포·업로드 순간 저작권 클레임 발생. | 
 
 ![HEROPY](https://upload.wikimedia.org/wikipedia/commons/0/05/Minhwa-Tiger_and_magpie-02.jpg)
+alt: 출처:KPop Demon Hunters WIKI (https://en.wikipedia.org/wiki/KPop_Demon_Hunters)
 
 🎧 이제 데이터 끊김 없이 K-pop 데몬헌터스 OST로 하루를 버닝해 보세요!
 다른 자동화 아이디어나 스크립트 튜닝이 필요하면 언제든 불러주세요. 항상 코드와 이야기, 두 마리 토끼를 동시에 잡아드릴 준비가 되어 있답니다. 🐰💻
