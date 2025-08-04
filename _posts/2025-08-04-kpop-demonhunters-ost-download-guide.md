@@ -54,11 +54,12 @@ mermaid : true
 - 결론: 아래 스크립트는 ① 완전히 개인 감상 목적 ② 정식 구매가 불가능하거나 사라진 음원인 경우에 한해 참고용 예시로만 사용해 주세요.
 
 ## 3. 준비물 한눈에 보기
+
  구분 | 이유 | 설치 명령 | 비고
  -------|------------|-----------------------|----------
- Python 3.9+ | 스크립트 실행 환경 | – | Windows 11·macOS 모두 OK 
- yt-dlp | 유튜브 다운로드 핵심 라이브러리(유튜브-DL 후속) | pip install yt-dlp | 유지보수 활발 
- FFmpeg | 오디오 추출·변환 | Windows: choco install ffmpeg<br>macOS: brew install ffmpeg | PATH 등록 필요 
+ `Python 3.9+` | 스크립트 실행 환경 |   | Windows 11·macOS 모두 OK 
+ `yt-dlp` | 유튜브 다운로드 핵심 라이브러리(유튜브-DL 후속) | pip install yt-dlp | 유지보수 활발 
+ `FFmpeg` | 오디오 추출·변환 | Windows: choco install ffmpeg<br>macOS: brew install ffmpeg | PATH 등록 필요 
 
 
 
