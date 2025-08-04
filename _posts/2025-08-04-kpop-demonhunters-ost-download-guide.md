@@ -25,7 +25,7 @@ robots: index, follow
 language: ko-KR
 image:
   path: https://img.hankyung.com/photo/202508/01.40930753.1.jpg
-  alt: [케이팝 데몬 헌터스] 스틸컷 /사진=넷플릭스
+  alt: 한경
 pin : false
 math : false
 mermaid : true
