@@ -1,7 +1,7 @@
 ---
 title: K-pop 데몬헌터스 OST 유튜브 다운로드 방법 및 파이썬 자동화 가이드
 description: 유튜브에서 K-pop 데몬헌터스 OST를 개인 감상용으로 다운로드하는 이야기와 파이썬 스크립트 가이드. 저작권 준수와 FFmpeg·yt-dlp 활용법까지 자세히 설명합니다.
-author: Richdaddy
+author:
 date: 2025-08-04
 tags:
   - K-pop OST 다운로드
@@ -23,6 +23,7 @@ keywords:
 canonical: https://richdaddy-corp.github.io/kpop-demonhunters-ost-download-guide
 robots: index, follow
 language: ko-KR
+images: https://upload.wikimedia.org/wikipedia/en/9/93/KPDHposter.jpeg
 ---
 
 # K-pop 데몬헌터스 OST 다운로드 & 이해하기 쉬운 파이썬 자동화 가이드
@@ -159,6 +160,7 @@ if __name__ == "__main__":
 | “에러: unsupported URL” | 유튜브 shorts 등 특수 유형은 개별 영상 URL로 변환해 주세요. | 
 | “클레임 뜨나요?” | 다운로드 자체는 비공개 단말 내부라 감지되지 않습니다. 다만 배포·업로드 순간 저작권 클레임 발생. | 
 
+![HEROPY](https://upload.wikimedia.org/wikipedia/commons/0/05/Minhwa-Tiger_and_magpie-02.jpg)
 
 🎧 이제 데이터 끊김 없이 K-pop 데몬헌터스 OST로 하루를 버닝해 보세요!
 다른 자동화 아이디어나 스크립트 튜닝이 필요하면 언제든 불러주세요. 항상 코드와 이야기, 두 마리 토끼를 동시에 잡아드릴 준비가 되어 있답니다. 🐰💻
