@@ -1,6 +1,6 @@
 ---
 title: "원격서버의 파이썬 스크립트 실행하기."
-date: 2025-08-05 20:00:00 +/-TTTT
+date: 2025-08-06 07:00:00 +/-TTTT
 categories: [Work, Study, Python, Pyside6]
 tags: [Work, Study, Python, Pyside6, Remote, 원격지 스크립트 실행, 파이썬 실행, 업무자동화]
 math: true
