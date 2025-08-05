@@ -75,10 +75,10 @@ ls -alh
 int main() { std::cout << "Hi"; }
 ```
 ````
-``` ccp
+```` ccp
 #include <iostream>
 int main() { std::cout << "Hi"; }
-```
+````
 
 #### cs(C#)
 ````markdown
@@ -122,22 +122,26 @@ body { background-color: #eee; }
 #### http
 ````markdown
 ``` http
-GET /index.html HTTP/1.1<br>Host: example.com
+GET /index.html HTTP/1.1
+Host: example.com
 ```
 ````
 ``` http
-GET /index.html HTTP/1.1<br>Host: example.com
+GET /index.html HTTP/1.1
+Host: example.com
 ```
 
 
 #### ini
 ````markdown
 ``` ini
-[section]<br>key=value
+[section]
+key=value
 ```
 ````
 ``` ini
-[section]<br>key=value
+[section]
+key=value
 ```
  
 #### java
