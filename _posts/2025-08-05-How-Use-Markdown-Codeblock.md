@@ -1,8 +1,8 @@
 ---
 title: "GitHub 문서화: Markdown 코드블록으로 가독성 높이기"
 date: 2025-08-05 00:00:00 +/-TTTT
-categories: [study]
-tags: [GitHub README, Markdown 코드블록, 마크다운 문법, 개발자 문서, 코드 하이라이팅, README 템플릿]
+categories: [Study]
+tags: [GitHub README, Markdown 코드블록, 마크다운 문법, 개발자 문서, 코드 하이라이팅, README 템플릿,Code block, markdown]
 math: true
 toc: true
 author: 
