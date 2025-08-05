@@ -8,10 +8,10 @@ toc: true
 author: 
 img_path: /assets/img/for_post/
 image:
-  path: markdown.jpg #썸네일
-  alt: "마크다운(Markdown) 로고"
+  path: 2025-08-06-Remote_Script_run.png #썸네일
+  alt: "python remote_ui_with_selection.py 코드"
 pin: false
-description: 
+description: 너무 나를 귀찮게 해서 자동화 프로그램 하나 만들어 던져줌, 원격서버의 파이썬 실행하는 스크립트
 ---
 #
 
