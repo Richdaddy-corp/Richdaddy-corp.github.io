@@ -91,7 +91,7 @@ description: 블로그 글 발행 즉시 Python 스크립트를 활용해 Google
 
  ***
 
- ### 더 알아보면 좋을 추가 정보
+ ### 더 알아보면 좋을 추가 정보  
 - 페이지 속도 검사 도구: Google PageSpeed Insights, GTmetrix
 - 키워드 툴: SEMrush, Ahrefs, 네이버 키워드 도구
 - 분석·모니터링: Google Analytics, 네이버 애널리틱스
@@ -109,16 +109,19 @@ description: 블로그 글 발행 즉시 Python 스크립트를 활용해 Google
 #### 1. 사이트맵 관리
 - `sitemaps.list`, `sitemaps.submit` 메서드로 사이트맵 조회·제출 가능
 - 새 글이 포함된 사이트맵을 자동 갱신하면 구글 봇이 순차적으로 크롤링합니다.
+
 #### 2. URL 검사·인덱싱 요청
 - URL Inspection API (`index:inspect`)
 - 특정 URL을 검사하고, 문제가 없다면
 - Indexing API
 - 원칙적으로 구직공고(JobPosting), 라이브스트림(LiveStream) 구조화 데이터만 지원
 - 일반 블로그 포스트는 비공식 사용에 제한이 있으므로 주로 사이트맵 제출 방식을 권장.
+
 #### 3. 주요 활용 방법
 - 사이트 소유권 인증
 - OAuth2 인증 토큰 발급
 - API 호출로 `sitemaps.submit` 또는 URL 검사 후 `index:inspect` 실행
+
 #### 공식 문서: 
 - [https://developers.google.com/webmaster-tools/rest](https://developers.google.com/webmaster-tools/rest) (Search Console API)
 
