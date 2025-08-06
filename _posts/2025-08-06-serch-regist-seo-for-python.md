@@ -115,7 +115,7 @@ description: 블로그 글 발행 즉시 Python 스크립트를 활용해 Google
 - OAuth2 인증 토큰 발급
 - API 호출로 `sitemaps.submit` 또는 URL 검사 후 `index:inspect` 실행
 #### 공식 문서: 
-- [https://developers.google.com/webmaster-tools/rest] (Search Console API)
+- [https://developers.google.com/webmaster-tools/rest](https://developers.google.com/webmaster-tools/rest) (Search Console API)
 
 ***
 
@@ -132,9 +132,11 @@ description: 블로그 글 발행 즉시 Python 스크립트를 활용해 Google
 - Ocp-Apim-Subscription-Key 헤더에 API Key 설정
 - API 호출로 URL/Submit 또는 SubmitSiteMap 실행
 #### 공식 문서:
-- URL Submission API: [https://learn.microsoft.com/bingwebmaster/url-submission-api/overview]
-- Webmaster API 개요: [https://www.bing.com/webmasters/developers]
+- URL Submission API: [https://learn.microsoft.com/bingwebmaster/url-submission-api/overview](https://learn.microsoft.com/bingwebmaster/url-submission-api/overview)
+- Webmaster API 개요: [https://www.bing.com/webmasters/developers](https://www.bing.com/webmasters/developers)  
+
 ***
+
 ### 요약 비교
 
 | 기능 | Google Search Console API | Bing Webmaster API | 
@@ -142,7 +144,7 @@ description: 블로그 글 발행 즉시 Python 스크립트를 활용해 Google
 | 사이트맵 제출 | sitemaps.submit | SubmitSiteMap | 
 | 개별 URL 색인 | URL Inspection + (제한적) Indexing API | URL/Submit (단일·벌크 지원) | 
 | 인증 방식 | OAuth2 (서비스 계정 권장) | API Key (HTTP 헤더) | 
-| 문서 | developers.google.com/webmaster-tools/rest  | learn.microsoft.com/bingwebmaster/url-submission-api | 
+| 문서 | [developers.google.com/webmaster-tools/rest](developers.google.com/webmaster-tools/rest)  | [learn.microsoft.com/bingwebmaster/url-submission-api](learn.microsoft.com/bingwebmaster/url-submission-api) | 
 
 ***
 
