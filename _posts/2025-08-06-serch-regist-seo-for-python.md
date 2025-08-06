@@ -44,7 +44,9 @@ description: 블로그 글 발행 즉시 Python 스크립트를 활용해 Google
 - 제출
   - 각 관리자 도구(Search Console, Bing, 네이버 등)에 사이트맵 URL 입력
   - 수정 시 갱신 요청 버튼 클릭으로 빠른 반영 유도
+
 ***
+
 ### 3. RSS/핍(Ping) 서비스 활용
 - RSS 피드가 발행될 때마다 검색엔진 또는 크롤러 허브에 알림을 보냅니다.
 - 대표 허브
@@ -70,6 +72,7 @@ description: 블로그 글 발행 즉시 Python 스크립트를 활용해 Google
   - 블로그 포스트 타입 마크업으로 리치 스니펫 기회 확대
  
 ***
+
 ### 5. 네이버·다음 특화 전략
 - 네이버 “Knowledge iN” 또는 “포스트” 연계
   - 같은 주제로 Q&A·포스트 추가 작성 후 블로그로 유입 유도
@@ -85,6 +88,7 @@ description: 블로그 글 발행 즉시 Python 스크립트를 활용해 Google
 - RSS/핀 허브 등록 → 발행 즉시 크롤러 알림
 - SEO 플러그인 활용 → 메타·구조화 데이터 자동화
 - 플랫폼별 공유·연계 → 추가 유입 유도로 크롤 빈도↑
+
  ***
 
  ### 더 알아보면 좋을 추가 정보
@@ -97,6 +101,7 @@ description: 블로그 글 발행 즉시 Python 스크립트를 활용해 Google
 
 ***
 ***
+
 ## 구글 및 빙 검색엔진 색인 등록을 위한 API 안내
 블로그나 웹사이트에 새 글을 올릴 때, 매번 콘솔에 직접 접속하지 않고도 색인(인덱싱)을 요청할 수 있는 API 기능을 정리했습니다.
 
@@ -123,14 +128,17 @@ description: 블로그 글 발행 즉시 Python 스크립트를 활용해 Google
 #### 1. 사이트맵 제출
 - SubmitSiteMap 엔드포인트로 사이트맵 URL 전송
 - 새 글 배포 후 자동 사이트맵 갱신 + API 호출로 빠른 반영 유도
+
 #### 2. URL 색인 요청 (URL Submission API)
 - URL/Submit 메서드 제공
 - 단일 URL 또는 벌크(최대 1,000 URL/일) 요청 가능
 - JSON 형식의 페이로드에 URL 리스트를 담아 POST 요청
+
 #### 3. 인증 및 사용법
 - Bing Webmaster 계정에서 API 키(API Key) 발급
 - Ocp-Apim-Subscription-Key 헤더에 API Key 설정
 - API 호출로 URL/Submit 또는 SubmitSiteMap 실행
+
 #### 공식 문서:
 - URL Submission API: [https://learn.microsoft.com/bingwebmaster/url-submission-api/overview](https://learn.microsoft.com/bingwebmaster/url-submission-api/overview)
 - Webmaster API 개요: [https://www.bing.com/webmasters/developers](https://www.bing.com/webmasters/developers)  
@@ -161,8 +169,10 @@ description: 블로그 글 발행 즉시 Python 스크립트를 활용해 Google
   - 빙도 뉴스, 블로그 카테고리 기반 스키마 적용 시 크롤링 효율↑
 
 > 이렇게 설정해 두면 글을 쓸 때마다 수작업 없이도 양대 포털에 자동 색인 요청이 가능해집니다.
+
 ***
 ***
+
 ## Python 샘플 스크립트
 블로그 글을 발행할 때마다 수작업 없이 Google Search Console과 Bing Webmaster API로 색인 요청을 자동화하는 예시 코드입니다.
 
@@ -230,9 +240,11 @@ print(json.dumps(response, indent=2, ensure_ascii=False))
 #### 2-1. 사전 준비
 - Bing Webmaster에서 API Key 발급
 - requests 설치
+
 ``` bash
 pip install requests
 ```
+
 #### 2-2. 단일 URL / 벌크 URL 제출 예제
 
 ``` python
