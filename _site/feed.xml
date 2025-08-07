@@ -1,0 +1,147 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Rich Daddy - Second Life</title>
+  <subtitle>부자아빠 블로그 | Second Job, Second Life, Program, etc...</subtitle>
+  <updated>2025-08-07T14:08:49+09:00</updated>
+  <author>
+    <name>Rich Daddy</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ko"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Rich Daddy </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>원격서버의 파이썬 스크립트 실행하기.</title>
+    <link href="http://localhost:4000/posts/Remote_Script_run/" rel="alternate" type="text/html" title="원격서버의 파이썬 스크립트 실행하기." />
+    <published>2025-08-05T20:00:00+09:00</published>
+  
+    <updated>2025-08-05T15:35:21+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Remote_Script_run/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Remote_Script_run/" />
+    <author>
+      <name>Rich Daddy</name>
+    </author>
+
+  
+    
+    <category term="Work" />
+    
+    <category term="Study" />
+    
+    <category term="Python" />
+    
+    <category term="Pyside6" />
+    
+  
+
+  <summary>너무 나를 귀찮게 해서 자동화 프로그램 하나 만들어 던져줌, 원격서버의 파이썬 실행하는 스크립트</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>GitHub 문서화: Markdown 코드블록으로 가독성 높이기</title>
+    <link href="http://localhost:4000/posts/How-Use-Markdown-Codeblock/" rel="alternate" type="text/html" title="GitHub 문서화: Markdown 코드블록으로 가독성 높이기" />
+    <published>2025-08-05T00:00:00+09:00</published>
+  
+    <updated>2025-08-05T13:21:39+09:00</updated>
+  
+    <id>http://localhost:4000/posts/How-Use-Markdown-Codeblock/</id>
+    <content type="text/html" src="http://localhost:4000/posts/How-Use-Markdown-Codeblock/" />
+    <author>
+      <name>Rich Daddy</name>
+    </author>
+
+  
+    
+    <category term="Study" />
+    
+  
+
+  <summary>개발자를 위한 GitHub README 마크다운 코드블록 작성법과 템플릿. 다양한 언어별 예시와 SEO 최적화 팁까지!</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>K-pop 데몬헌터스 OST 유튜브 다운로드 방법 및 파이썬 자동화 가이드</title>
+    <link href="http://localhost:4000/posts/kpop-demonhunters-ost-download-guide/" rel="alternate" type="text/html" title="K-pop 데몬헌터스 OST 유튜브 다운로드 방법 및 파이썬 자동화 가이드" />
+    <published>2025-08-04T00:00:00+09:00</published>
+  
+    <updated>2025-08-05T08:45:29+09:00</updated>
+  
+    <id>http://localhost:4000/posts/kpop-demonhunters-ost-download-guide/</id>
+    <content type="text/html" src="http://localhost:4000/posts/kpop-demonhunters-ost-download-guide/" />
+    <author>
+      <name>Rich Daddy</name>
+    </author>
+
+  
+    
+  
+
+  <summary>유튜브에서 K-pop 데몬헌터스 OST를 개인 감상용으로 다운로드하는 이야기와 파이썬 스크립트 가이드. 저작권 준수와 FFmpeg·yt-dlp 활용법까지 자세히 설명합니다.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>로컬 폴더 ↔ GitHub 자동 동기화 Python 프로그램</title>
+    <link href="http://localhost:4000/posts/Auto-Github-Sync/" rel="alternate" type="text/html" title="로컬 폴더 ↔ GitHub 자동 동기화 Python 프로그램" />
+    <published>2025-08-01T13:00:00+09:00</published>
+  
+    <updated>2025-08-01T18:04:37+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Auto-Github-Sync/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Auto-Github-Sync/" />
+    <author>
+      <name>Rich Daddy</name>
+    </author>
+
+  
+    
+    <category term="Study" />
+    
+  
+
+  <summary>Python, GitPython, watchdog, schedule을 활용하여 로컬 폴더와 GitHub 저장소를 동기화하는 방법을 단계별로 설명합니다.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>루비</title>
+    <link href="http://localhost:4000/posts/Ruby/" rel="alternate" type="text/html" title="루비" />
+    <published>2025-07-28T00:00:00+09:00</published>
+  
+    <updated>2025-08-01T17:14:44+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Ruby/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Ruby/" />
+    <author>
+      <name>test</name>
+    </author>
+
+  
+    
+    <category term="tset" />
+    
+  
+
+  <summary>aaa</summary>
+
+  </entry>
+
+</feed>
+
+
