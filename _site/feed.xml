@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-08-07T14:29:27+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rich Daddy - Second Life</title><subtitle>부자아빠 블로그 | Second Job, Second Life, Program, Study, Automation, etc...</subtitle><entry><title type="html">원격서버의 파이썬 스크립트 실행하기.</title><link href="http://localhost:4000/posts/Remote_Script_run/" rel="alternate" type="text/html" title="원격서버의 파이썬 스크립트 실행하기." /><published>2025-08-06T07:00:00+09:00</published><updated>2025-08-06T08:29:07+09:00</updated><id>http://localhost:4000/posts/Remote_Script_run</id><content type="html" xml:base="http://localhost:4000/posts/Remote_Script_run/"><![CDATA[<p>#</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ko"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="ko" /><updated>2025-08-07T14:39:05+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rich Daddy - Second Life</title><subtitle>부자아빠 블로그 | Second Job, Second Life, Program, Study, Automation, etc...</subtitle><entry><title type="html">왜 구글 서치콘솔에서는 크롤링을 안해가는 것인가?</title><link href="http://localhost:4000/posts/why-not-serch_gooooooogle/" rel="alternate" type="text/html" title="왜 구글 서치콘솔에서는 크롤링을 안해가는 것인가?" /><published>2025-08-07T00:00:00+09:00</published><updated>2025-08-07T00:00:00+09:00</updated><id>http://localhost:4000/posts/why-not-serch_gooooooogle</id><content type="html" xml:base="http://localhost:4000/posts/why-not-serch_gooooooogle/"><![CDATA[<h1 id="테스트용-글-입니다">테스트용 글 입니다.</h1>
+<p>깃허브에서 add file 로 바로 글을 작성중 입니다.<br />
+이렇게 했을때.<br />
+ <code class="language-plaintext highlighter-rouge">_site</code> 폴더에 <code class="language-plaintext highlighter-rouge">sitemap.xml</code>, <code class="language-plaintext highlighter-rouge">feed.xml</code>파일이 업데이트 될까요?</p>]]></content><author><name></name></author><summary type="html"><![CDATA[테스트용 글 입니다. 깃허브에서 add file 로 바로 글을 작성중 입니다. 이렇게 했을때. _site 폴더에 sitemap.xml, feed.xml파일이 업데이트 될까요?]]></summary></entry><entry><title type="html">원격서버의 파이썬 스크립트 실행하기.</title><link href="http://localhost:4000/posts/Remote_Script_run/" rel="alternate" type="text/html" title="원격서버의 파이썬 스크립트 실행하기." /><published>2025-08-06T07:00:00+09:00</published><updated>2025-08-06T08:29:07+09:00</updated><id>http://localhost:4000/posts/Remote_Script_run</id><content type="html" xml:base="http://localhost:4000/posts/Remote_Script_run/"><![CDATA[<p>#</p>
 
 <p>업무시간에 너~~~ 무 나를 귀찮게 한다.<br />
 원래의 파이썬 스크립트는 매 시간 자동으로 실행 되도록 백그라운드 처리가 되어있는데,  실무 부서의 입장에서는 바로바로 확인이 되었으면 하나보다.<br />
@@ -1754,7 +1757,20 @@ launchctl load ~/Library/LaunchAgents/com.user.foldersync.plist
   <li>repository URL 및 권한 설정 확인</li>
   <li>원격 폴더 권한 오류 시 SSH 키 사용 권장</li>
   <li>대용량 파일 동기화 시 성능 저하 우려</li>
-</ul>]]></content><author><name></name></author><category term="Study" /><category term="Python" /><category term="Study" /><summary type="html"><![CDATA[Python, GitPython, watchdog, schedule을 활용하여 로컬 폴더와 GitHub 저장소를 동기화하는 방법을 단계별로 설명합니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2025-08-01-Auto-Github-Sync-Title.png" /><media:content medium="image" url="http://localhost:4000/2025-08-01-Auto-Github-Sync-Title.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">마크다운 기초 사용방법</title><link href="http://localhost:4000/posts/Markdown-is/" rel="alternate" type="text/html" title="마크다운 기초 사용방법" /><published>2025-07-28T00:00:00+09:00</published><updated>2025-07-29T23:00:00+09:00</updated><id>http://localhost:4000/posts/Markdown-is</id><content type="html" xml:base="http://localhost:4000/posts/Markdown-is/"><![CDATA[<hr />
+</ul>]]></content><author><name></name></author><category term="Study" /><category term="Python" /><category term="Study" /><summary type="html"><![CDATA[Python, GitPython, watchdog, schedule을 활용하여 로컬 폴더와 GitHub 저장소를 동기화하는 방법을 단계별로 설명합니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/2025-08-01-Auto-Github-Sync-Title.png" /><media:content medium="image" url="http://localhost:4000/2025-08-01-Auto-Github-Sync-Title.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">루비</title><link href="http://localhost:4000/posts/Ruby/" rel="alternate" type="text/html" title="루비" /><published>2025-07-28T00:00:00+09:00</published><updated>2025-08-01T17:14:44+09:00</updated><id>http://localhost:4000/posts/Ruby</id><content type="html" xml:base="http://localhost:4000/posts/Ruby/"><![CDATA[<h1 id="루비ruby">루비(<code class="language-plaintext highlighter-rouge">Ruby</code>)?</h1>
+<p><code class="language-plaintext highlighter-rouge">루비</code>(<code class="language-plaintext highlighter-rouge">Ruby</code>)는 프로그래밍 언어 입니다. <br />
+<code class="language-plaintext highlighter-rouge">Python</code>과 쌍벽을 이루는 라이벌 관계의 언어입니다. 서로 비슷한 점도 많다고 하네요.<br />
+1995년 마크모토 유키히로가 개발한 언어.<br />
+<code class="language-plaintext highlighter-rouge">스크립트 언어</code>의 일종 입니다.</p>
+<ul>
+  <li>스크립트 언어는 기존의 프로그램을 제어하기 위한 언어</li>
+  <li>일반적인 프로그램(어플리케이션)은 컴파일을 통해서 컴퓨터가 알아볼 수 있도록 번역(?)을 해줘야 해서 번거롭다</li>
+  <li>스크립트 언어는 그럴 필요 없어요</li>
+  <li><code class="language-plaintext highlighter-rouge">파이썬</code>, <code class="language-plaintext highlighter-rouge">자바스크립트</code>가 그 대표적인 스크립트 언어 입니다.</li>
+</ul>
+
+<p>루비는 일본인이 만든 만큼 일본에서 인기가 좋다. 그래서, 모든 API가 일본어로 되어있다고 한다.<br />
+또한, Ruby on Rails라는 웹 프레임 워크가 있다고 하는데, 이것이 인기가 좋다고 한다… <code class="language-plaintext highlighter-rouge">일본덕후</code>스럽긴…</p>]]></content><author><name>test</name></author><category term="tset" /><category term="tags" /><summary type="html"><![CDATA[aaa]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/Ruby_is.png" /><media:content medium="image" url="http://localhost:4000/Ruby_is.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">마크다운 기초 사용방법</title><link href="http://localhost:4000/posts/Markdown-is/" rel="alternate" type="text/html" title="마크다운 기초 사용방법" /><published>2025-07-28T00:00:00+09:00</published><updated>2025-07-29T23:00:00+09:00</updated><id>http://localhost:4000/posts/Markdown-is</id><content type="html" xml:base="http://localhost:4000/posts/Markdown-is/"><![CDATA[<hr />
 <blockquote class="prompt-info">
   <p><strong><u>KEYWORDS</u></strong>  <br />
 마크다운의 기초 사용방법, 마크다운 문법을 공부해 봅니다.</p>
@@ -2150,17 +2166,4 @@ HTML로 쉽게 변환이 가능하며 주로 Github 등에서 README 파일, 온
 
 <hr />
 
-<hr />]]></content><author><name>Richdaddy</name></author><category term="Study" /><category term="마크다운" /><category term="markdown" /><category term="문서" /><summary type="html"><![CDATA[마크다운 문서의 작성법을 공부해 봅니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">루비</title><link href="http://localhost:4000/posts/Ruby/" rel="alternate" type="text/html" title="루비" /><published>2025-07-28T00:00:00+09:00</published><updated>2025-08-01T17:14:44+09:00</updated><id>http://localhost:4000/posts/Ruby</id><content type="html" xml:base="http://localhost:4000/posts/Ruby/"><![CDATA[<h1 id="루비ruby">루비(<code class="language-plaintext highlighter-rouge">Ruby</code>)?</h1>
-<p><code class="language-plaintext highlighter-rouge">루비</code>(<code class="language-plaintext highlighter-rouge">Ruby</code>)는 프로그래밍 언어 입니다. <br />
-<code class="language-plaintext highlighter-rouge">Python</code>과 쌍벽을 이루는 라이벌 관계의 언어입니다. 서로 비슷한 점도 많다고 하네요.<br />
-1995년 마크모토 유키히로가 개발한 언어.<br />
-<code class="language-plaintext highlighter-rouge">스크립트 언어</code>의 일종 입니다.</p>
-<ul>
-  <li>스크립트 언어는 기존의 프로그램을 제어하기 위한 언어</li>
-  <li>일반적인 프로그램(어플리케이션)은 컴파일을 통해서 컴퓨터가 알아볼 수 있도록 번역(?)을 해줘야 해서 번거롭다</li>
-  <li>스크립트 언어는 그럴 필요 없어요</li>
-  <li><code class="language-plaintext highlighter-rouge">파이썬</code>, <code class="language-plaintext highlighter-rouge">자바스크립트</code>가 그 대표적인 스크립트 언어 입니다.</li>
-</ul>
-
-<p>루비는 일본인이 만든 만큼 일본에서 인기가 좋다. 그래서, 모든 API가 일본어로 되어있다고 한다.<br />
-또한, Ruby on Rails라는 웹 프레임 워크가 있다고 하는데, 이것이 인기가 좋다고 한다… <code class="language-plaintext highlighter-rouge">일본덕후</code>스럽긴…</p>]]></content><author><name>test</name></author><category term="tset" /><category term="tags" /><summary type="html"><![CDATA[aaa]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/Ruby_is.png" /><media:content medium="image" url="http://localhost:4000/Ruby_is.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<hr />]]></content><author><name>Richdaddy</name></author><category term="Study" /><category term="마크다운" /><category term="markdown" /><category term="문서" /><summary type="html"><![CDATA[마크다운 문서의 작성법을 공부해 봅니다.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
