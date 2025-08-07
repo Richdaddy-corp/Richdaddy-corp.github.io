@@ -5,8 +5,17 @@
     "url": "/posts/Remote_Script_run/",
     "categories": "Work, Study, Python, Pyside6",
     "tags": "Work, Study, Python, Pyside6, Remote, 원격지 스크립트 실행, 파이썬 실행, 업무자동화",
-    "date": "2025-08-05 20:00:00 +0900",
+    "date": "2025-08-06 07:00:00 +0900",
     "content": "너무 나를 귀찮게 해서 자동화 프로그램 하나 만들어 던져줌, 원격서버의 파이썬 실행하는 스크립트"
+  },
+  
+  {
+    "title": "Python으로 Google Search Console & Bing Webmaster 색인 요청 자동화",
+    "url": "/posts/serch-regist-seo-for-python/",
+    "categories": "Python, Study, 자동화",
+    "tags": "python, 검색엔진최적화, Google Search Console, Bing Webmaster, API 자동화, SEO",
+    "date": "2025-08-06 00:00:00 +0900",
+    "content": "블로그 글 발행 즉시 Python 스크립트를 활용해 Google Search Console과 Bing Webmaster API에 색인 요청을 자동화하는 방법을 단계별로 안내합니다."
   },
   
   {

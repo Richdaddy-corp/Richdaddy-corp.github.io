@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Rich Daddy - Second Life</title>
   <subtitle>부자아빠 블로그 | Second Job, Second Life, Program, etc...</subtitle>
-  <updated>2025-08-07T14:08:49+09:00</updated>
+  <updated>2025-08-07T14:14:35+09:00</updated>
   <author>
     <name>Rich Daddy</name>
     <uri>http://localhost:4000/</uri>
@@ -22,7 +22,7 @@
   <entry>
     <title>원격서버의 파이썬 스크립트 실행하기.</title>
     <link href="http://localhost:4000/posts/Remote_Script_run/" rel="alternate" type="text/html" title="원격서버의 파이썬 스크립트 실행하기." />
-    <published>2025-08-05T20:00:00+09:00</published>
+    <published>2025-08-06T07:00:00+09:00</published>
   
     <updated>2025-08-05T15:35:21+09:00</updated>
   
@@ -45,6 +45,34 @@
   
 
   <summary>너무 나를 귀찮게 해서 자동화 프로그램 하나 만들어 던져줌, 원격서버의 파이썬 실행하는 스크립트</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Python으로 Google Search Console &amp; Bing Webmaster 색인 요청 자동화</title>
+    <link href="http://localhost:4000/posts/serch-regist-seo-for-python/" rel="alternate" type="text/html" title="Python으로 Google Search Console &amp;amp; Bing Webmaster 색인 요청 자동화" />
+    <published>2025-08-06T00:00:00+09:00</published>
+  
+    <updated>2025-08-06T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/serch-regist-seo-for-python/</id>
+    <content type="text/html" src="http://localhost:4000/posts/serch-regist-seo-for-python/" />
+    <author>
+      <name>Rich Daddy</name>
+    </author>
+
+  
+    
+    <category term="Python" />
+    
+    <category term="Study" />
+    
+    <category term="자동화" />
+    
+  
+
+  <summary>블로그 글 발행 즉시 Python 스크립트를 활용해 Google Search Console과 Bing Webmaster API에 색인 요청을 자동화하는 방법을 단계별로 안내합니다.</summary>
 
   </entry>
 
@@ -115,30 +143,6 @@
   
 
   <summary>Python, GitPython, watchdog, schedule을 활용하여 로컬 폴더와 GitHub 저장소를 동기화하는 방법을 단계별로 설명합니다.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>루비</title>
-    <link href="http://localhost:4000/posts/Ruby/" rel="alternate" type="text/html" title="루비" />
-    <published>2025-07-28T00:00:00+09:00</published>
-  
-    <updated>2025-08-01T17:14:44+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Ruby/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Ruby/" />
-    <author>
-      <name>test</name>
-    </author>
-
-  
-    
-    <category term="tset" />
-    
-  
-
-  <summary>aaa</summary>
 
   </entry>
 
