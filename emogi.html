@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Emoji Cheat Sheet Clone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="빠르고 아름다운 이모지 치트 시트. 카테고리·디바이스 필터, 검색, 복사 기능 제공" />
+  <meta name="keywords" content="이모지, emoji, cheat sheet, 유니코드, shortcode, 복사, 필터" />
+  <meta property="og:title" content="Emoji Cheat Sheet Clone" />
+  <meta property="og:description" content="카테고리별, 디바이스별 이모지 필터 및 복사 기능을 제공하는 클론 사이트" />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://your-domain.com/" />
+
+  <!-- Google AdSense -->
+  <script data-ad-client="ca-pub-YOUR_AD_CLIENT_ID" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+  </script>
+
+  <!-- 구글 폰트 -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    /* reset & 기본 */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.5;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    /* 헤더 */
+    header {
+      background: #1565c0;
+      color: #fff;
+      padding: 16px 32px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+    .search-input {
+      margin-top: 8px;
+      padding: 8px 12px;
+      font-size: .95rem;
+      border: none;
+      border-radius: 4px;
+      width: 220px;
+    }
+
+    /* 메인 래퍼 */
+    .main-content {
+      padding: 24px 32px;
+    }
+
+    /* 컨트롤 패널 */
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 24px;
+      align-items: center;
+    }
+    .controls label {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-size: .9rem;
+      cursor: pointer;
+    }
+    .controls select,
+    .controls input[type="radio"] {
+      cursor: pointer;
+    }
+
+    /* 카테고리 버튼 */
+    .category-filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+    .category-filters button {
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      background: #fff;
+      border-radius: 4px;
+      font-size: .85rem;
+      transition: all .2s;
+      cursor: pointer;
+    }
+    .category-filters button.active {
+      background: #1565c0;
+      color: #fff;
+      border-color: #1565c0;
+    }
+    .category-filters button:hover {
+      background: #e3f2fd;
+    }
+
+    /* 섹션 제목 */
+    .category-section h2 {
+      margin: 32px 0 12px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 4px;
+      color: #1565c0;
+    }
+
+    /* 그리드 & 플레이스홀더 */
+    .ecs_main-wrapp {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
+      grid-auto-rows: minmax(48px, auto);
+      gap: 12px;
+    }
+    .emoji-item {
+      position: relative;
+      text-align: center;
+      padding: 8px;
+      border-radius: 6px;
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      transition: transform .2s, box-shadow .2s, background .2s;
+      cursor: pointer;
+    }
+    .emoji-item img,
+    .emoji-item .emoji-char {
+      width: 32px; height: 32px;
+      display: block; margin: auto;
+      transition: transform .3s;
+    }
+    /* CSS 애니메이션 */
+    .emoji-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      background: #e3f2fd;
+    }
+    .emoji-item:hover img,
+    .emoji-item:hover .emoji-char {
+      transform: scale(1.2) rotate(10deg);
+    }
+    /* 플레이스홀더 스피너 */
+    .emoji-item.placeholder {
+      background: transparent;
+      box-shadow: none;
+      cursor: default;
+    }
+    .spinner {
+      border: 3px solid rgba(0,0,0,0.1);
+      border-top: 3px solid #1565c0;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      animation: spin 1s linear infinite;
+      margin: 12px auto;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* 툴팁 */
+    .tooltip {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-bottom: 6px;
+      padding: 4px 8px;
+      background: rgba(0,0,0,0.75);
+      color: #fff;
+      border-radius: 4px;
+      font-size: .75rem;
+      white-space: pre-line;
+      opacity: 0;
+      transition: opacity .2s;
+      pointer-events: none;
+    }
+    .emoji-item:hover .tooltip {
+      opacity: 1;
+    }
+
+    /* 푸터 */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 16px 32px;
+      font-size: .85rem;
+      margin-top: 48px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Emoji Cheat Sheet</h1>
+    <div>
+      <input
+        type="text"
+        id="searchInput"
+        class="search-input"
+        placeholder="이모지 검색..."
+      />
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <div class="main-content">
+
+    <!-- Google AdSense 광고 -->
+    <ins class="adsbygoogle"
+      style="display:block; text-align:center;"
+      data-ad-format="auto"
+      data-full-width-responsive="true"
+      data-ad-client="ca-pub-YOUR_AD_CLIENT_ID"
+      data-ad-slot="YOUR_AD_SLOT_ID">
+    </ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+    <!-- 복사 타입 / 벤더 선택 -->
+    <div class="controls">
+      <label>
+        <input type="radio" name="copyType" value="emoji" checked />
+        복사: 이모지
+      </label>
+      <label>
+        <input type="radio" name="copyType" value="shortcode" />
+        복사: 단축코드
+      </label>
+      <label>
+        디바이스:
+        <select id="vendorSelect">
+          <option value="apple">Apple</option>
+          <option value="google">Android</option>
+          <option value="microsoft">Windows</option>
+        </select>
+      </label>
+    </div>
+
+    <!-- 카테고리 필터 -->
+    <div class="category-filters" id="categoryFilters"></div>
+
+    <!-- 이모지 컨테이너 -->
+    <div id="emojiContainer"></div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 진오의 Emoji Cheat Sheet Clone
+  </footer>
+
+  <script>
+    const EMOJI_JSON_URL =
+      'https://cdn.jsdelivr.net/npm/emoji-datasource@7.0.1/emoji.json';
+    const VENDOR_PATH = {
+      apple: 'https://cdn.jsdelivr.net/npm/emoji-datasource-apple@4.0.4/img/apple/64',
+      google: 'https://cdn.jsdelivr.net/npm/emoji-datasource-google@7.0.1/img/google/64',
+      microsoft: 'https://cdn.jsdelivr.net/npm/emoji-datasource-microsoft@7.0.1/img/microsoft/64'
+    };
+
+    let emojiData = [], categories = [];
+    const state = {
+      copyType:   'emoji',
+      vendor:     'apple',
+      category:   'All',
+      searchTerm: '',
+      loadedCount: 200,
+      chunkSize: 200
+    };
+
+    // 코드포인트 → 실제 문자
+    function codepointsToChar(u) {
+      return u.toLowerCase().split('-')
+        .map(x => String.fromCodePoint(parseInt(x,16))).join('');
+    }
+
+    // 초기 로드
+    fetch(EMOJI_JSON_URL)
+      .then(r => r.json())
+      .then(data => {
+        emojiData = data.filter(e => e.short_names && e.category);
+        categories = Array.from(new Set(emojiData.map(e=>e.category))).sort();
+        renderCategoryButtons();
+        attachControls();
+        renderEmojis();
+      });
+
+    // 카테고리 버튼
+    function renderCategoryButtons() {
+      const wrap = document.getElementById('categoryFilters');
+      ['All', ...categories].forEach(cat => {
+        const btn = document.createElement('button');
+        btn.textContent = cat;
+        btn.dataset.cat = cat;
+        if(cat===state.category) btn.classList.add('active');
+        btn.onclick = () => {
+          state.category = cat;
+          state.loadedCount = state.chunkSize;
+          wrap.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
+          btn.classList.add('active');
+          renderEmojis();
+        };
+        wrap.append(btn);
+      });
+    }
+
+    // 라디오·셀렉트·검색 이벤트
+    function attachControls() {
+      document.querySelectorAll('input[name="copyType"]')
+        .forEach(r=>r.onchange = e => state.copyType=e.target.value);
+
+      document.getElementById('vendorSelect')
+        .onchange = e => {
+          state.vendor = e.target.value;
+          renderEmojis();
+        };
+
+      document.getElementById('searchInput')
+        .oninput = e => {
+          state.searchTerm = e.target.value.trim().toLowerCase();
+          state.loadedCount = state.chunkSize;
+          renderEmojis();
+        };
+    }
+
+    // 이모지 렌더링
+    function renderEmojis() {
+      const container = document.getElementById('emojiContainer');
+      container.innerHTML = '';
+
+      // 필터 적용
+      let list = emojiData;
+      if(state.category!=='All')
+        list = list.filter(e=>e.category===state.category);
+      if(state.searchTerm)
+        list = list.filter(e=>e.short_names.some(n=>n.includes(state.searchTerm)));
+
+      const grouped = !state.searchTerm && state.category==='All';
+
+      if(grouped) {
+        categories.forEach(cat => {
+          const secList = emojiData.filter(e=>e.category===cat);
+          if(!secList.length) return;
+          const sec = document.createElement('section');
+          sec.className = 'category-section';
+          sec.innerHTML = `<h2>${cat}</h2>`;
+          const grid = document.createElement('div');
+          grid.className = 'ecs_main-wrapp';
+          secList.forEach(e => makeEmojiItem(grid,e));
+          sec.append(grid);
+          container.append(sec);
+        });
+      }
+      else {
+        const grid = document.createElement('div');
+        grid.className = 'ecs_main-wrapp';
+        list.slice(0, state.loadedCount).forEach(e=>makeEmojiItem(grid,e));
+        container.append(grid);
+
+        // 프리페치 + Lazy-load
+        if(list.length > state.loadedCount) {
+          const sentinel = document.createElement('div');
+          sentinel.id = 'sentinel';
+          container.append(sentinel);
+
+          const obs = new IntersectionObserver(entries=>{
+            if(entries[0].isIntersecting) {
+              // 다음 청크 프리페치
+              list.slice(state.loadedCount, state.loadedCount+state.chunkSize)
+                .forEach(e=>{
+                  new Image().src = `${VENDOR_PATH[state.vendor]}/${e.unified.toLowerCase()}.png`;
+                });
+              state.loadedCount += state.chunkSize;
+              obs.disconnect();
+              renderEmojis();
+            }
+          },{ rootMargin:'200px' });
+          obs.observe(sentinel);
+        }
+      }
+    }
+
+    // 아이템 생성 (스피너 → 이미지 교체 → 툴팁)
+    function makeEmojiItem(grid, emo) {
+      const unified = emo.unified;
+      const code = `:${emo.short_names[0]}:`;
+      const char = codepointsToChar(unified);
+      const imgUrl = `${VENDOR_PATH[state.vendor]}/${unified.toLowerCase()}.png`;
+      const item = document.createElement('div');
+      item.className = 'emoji-item placeholder';
+
+      // 스피너
+      const spin = document.createElement('div');
+      spin.className = 'spinner';
+      item.append(spin);
+
+      // 실제 이모지 or 폰트 fallback
+      const img = document.createElement('img');
+      img.style.display = 'none';
+      img.src = imgUrl;
+      img.alt = code;
+      img.onload = () => {
+        spin.remove();
+        item.classList.remove('placeholder');
+        img.style.display = 'block';
+      };
+      // 오류 시 폴백: 유니코드 텍스트로 대체
+      img.onerror = () => {
+        spin.remove();
+        item.classList.remove('placeholder');
+        const span = document.createElement('span');
+        span.className = 'emoji-char';
+        span.textContent = char;
+        item.insertBefore(span, item.firstChild);
+      };
+      item.append(img);
+
+      // 툴팁: 유니코드 + 줄바꿈 + shortcode
+      const tip = document.createElement('div');
+      tip.className = 'tooltip';
+      tip.textContent = `${char}\n${code}`;
+      item.append(tip);
+
+      // 클릭 복사
+      item.onclick = () => {
+        const text = state.copyType==='emoji'? char: code;
+        navigator.clipboard.writeText(text).then(()=>{
+          item.style.background = '#d3f9d8';
+          setTimeout(()=> item.style.background='', 300);
+        });
+      };
+
+      grid.append(item);
+    }
+  </script>
+</body>
+</html>
