@@ -6,7 +6,7 @@ tags: [Work, Study, Python, Pyside6, Remote, 원격지 스크립트 실행, 파�
 math: true
 toc: true
 author: 
-img_path: /assets/img/for_post/
+img_path:
 image:
   path: 2025-08-06-Remote_Script_run.png #썸네일
   alt: "python remote_ui_with_selection.py 코드"
