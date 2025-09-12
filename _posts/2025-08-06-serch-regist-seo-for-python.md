@@ -12,6 +12,9 @@ image:
   alt: "마크다운(Markdown) 로고"
 pin: false
 description: 블로그 글 발행 즉시 Python 스크립트를 활용해 Google Search Console과 Bing Webmaster API에 색인 요청을 자동화하는 방법을 단계별로 안내합니다.
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 ## 블로그 검색 노출 최적화 가이드
