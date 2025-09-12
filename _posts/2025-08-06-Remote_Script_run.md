@@ -12,6 +12,9 @@ image:
   alt: "python remote_ui_with_selection.py 코드"
 pin: false
 description: 너무 나를 귀찮게 해서 자동화 프로그램 하나 만들어 던져줌, 원격서버의 파이썬 실행하는 스크립트
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 #
 
