@@ -29,6 +29,9 @@ image:
 pin : false
 math : false
 mermaid : true
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 # K-pop 데몬헌터스 OST 다운로드 & 이해하기 쉬운 파이썬 자동화 가이드
