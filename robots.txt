@@ -2,5 +2,5 @@ User-agent: *
 Allow: /
 
 
-Sitemap: http://richdaddy-corp.github.io/sitemap.xml
+Sitemap: https://richdaddy-corp.github.io/sitemap.xml
 #DaumWebMasterTool:7937071dff69c1f6e6577c83ec1d8f90ca1d8e143513d765ddb5201098c32165:FpOlXBuU58rHF4GFtlLpnA==
