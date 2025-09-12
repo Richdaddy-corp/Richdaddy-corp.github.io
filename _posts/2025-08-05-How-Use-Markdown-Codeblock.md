@@ -12,6 +12,9 @@ image:
   alt: "마크다운 코드블럭"
 pin: false
 description: 개발자를 위한 GitHub README 마크다운 코드블록 작성법과 템플릿. 다양한 언어별 예시와 SEO 최적화 팁까지!
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 
