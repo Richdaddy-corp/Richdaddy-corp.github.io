@@ -12,6 +12,9 @@ image:
   alt: "GitHub 자동 동기화 Python"
 pin: false
 description: Python, GitPython, watchdog, schedule을 활용하여 로컬 폴더와 GitHub 저장소를 동기화하는 방법을 단계별로 설명합니다.
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 # 로컬 ↔ GitHub 폴더 자동 동기화 Python 프로그램
